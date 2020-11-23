@@ -16,7 +16,7 @@ namespace StressTest.App
         {
 
             string data;
-            using (var sr = new StreamReader(@"D:\Work Related\Redis Stress Test\StressTest\StressTest.App\Sample.json"))
+            using (var sr = new StreamReader(@"D:\Work Related\Redis Stress Test\Redis-Stress-Test\StressTest.App\Sample.json"))
             {
                 data = sr.ReadToEnd();
             }
